@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #081f3d , #081f3d , #0d324d );
+    height: 100vh;
+    z-index: -1;
+}
+
+.nav {
+    width: 100%;
+    height: 14%;
+    background-color: #081f3d;
+    box-shadow: 0 0 70px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+}
+
+.logo{
+    width: 18%;
+}
+
+.sec1 {
+    width: 100%;
+    height: 90%;
+}
+
+.name {
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    right: 7%;
+    top: 30%;
+    text-align: center;
+}
+
+.name h1{
+    font-size: 1000%;
+    color: white;
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.name p {
+    font-size: 300%;
+    color: #ff700f;
+    font-family: roboto;
+    font-weight: 200;
+}
+
+.thunder img {
+    width: 20%;
+    position: absolute;
+    top: 27%;
+    left: 12%;
+    z-index: -1;
+}
+
+.sec2 {
+    width: 100%;
+    height: 90%;
+    box-shadow: 0 0 70px black;
+}
+
+.about-thunder {
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    left: 35%;
+    display: grid;
+    place-items: center;
+}
+
+.about-thunder h1 {
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 650%;
+    color: #ff700f;
+}
+
+.about{
+    width: 60%;
+    height: 45%;
+    position: absolute;
+    left: 20%;
+    bottom: -80%;
+}
+
+.about p {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 350%;
+    color: white;
+    text-align: center;
+}
+
+.sec3 {
+    width: 100%;
+    height: 90%;
+}
+
+.our-work {
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    left: 35%;
+    display: grid;
+    place-items: center;
+    bottom: -900px;
+}
+
+.our-work h1 {
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 650%;
+    color: #ff700f;
+}
+
+.links{
+    width: 95%;
+    height: 45%;
+    position: absolute;
+    left: 5%;
+    bottom: -180%;
+    display: flex;
+}
+
+.links a {
+    font-family: roboto;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 350%;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    text-decoration: none;
+}
+
+.sec4 {
+    width: 100%;
+    height: 80%;
+    box-shadow: 0 0 70px black;
+}
+.contact{
+    width: 30%;
+    height: 20%;
+    position: absolute;
+    left: 35%;
+    display: grid;
+}
+
+.contact h1{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 650%;
+    color: #ff700f;
+}
+
+.contacts{
+    width: 40%;
+    height: 25%;
+    position: absolute;
+    left: 28%;
+    bottom: -220%;
+}
+
+.contacts img{
+    width: 18%;
+    padding: 5%;
+    border-radius: 40%;
+}
+
+.see {
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    left: 28%;
+    bottom: -245%;
+    display: grid;
+}
+
+.see h1{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 350%;
+    color: white;
+}
+
+@media screen and (max-width: 400px) {
+
+    body {
+        background-image: linear-gradient(to right, #081f3d , #081f3d , #081f3d );
+        height: 100vh;
+        z-index: -1;
+    }
+
+    .logo{
+        width: 49%;
+    } 
+    
+.sec1{
+    height: 75%;
+}    
+
+.name {
+    width: 95%;
+    height: 20%;
+    position: absolute;
+    right: 2%;
+    top: 15%;
+    text-align: center;
+}
+
+.name h1{
+    font-size: 500%;
+    color: white;
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.name p {
+    font-size: 200%;
+    color: #ff700f;
+    font-family: roboto;
+    font-weight: 200;
+}
+
+.thunder img {
+    width: 36%;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    z-index: -1;
+}
+
+.sec2 {
+    width: 100%;
+    height: 75%;
+    box-shadow: 0 0 70px black;
+}
+
+.about-thunder {
+    width: 70%;
+    height: 20%;
+    position: absolute;
+    left: 15%;
+    display: grid;
+    place-items: center;
+}
+
+.about-thunder h1 {
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 550%;
+    color: #ff700f;
+}
+
+.about{
+    width: 95%;
+    height: 45%;
+    position: absolute;
+    left: 2%;
+    bottom: -45%;
+}
+
+.about p {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 220%;
+    color: white;
+    text-align: center;
+}
+
+.sec3 {
+    width: 100%;
+    height: 60%;
+}
+
+.our-work {
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    left: 5%;
+    display: grid;
+    place-items: center;
+    bottom: -530px;
+}
+
+.our-work h1 {
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 550%;
+    color: #ff700f;
+}
+
+.links{
+    width: 92%;
+    height: 15%;
+    position: absolute;
+    left: 5%;
+    bottom: -95%;
+    display: flex;
+}
+
+.links a {
+    font-family: roboto;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 160%;
+    color: white;
+    text-align: center;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+.sec4 {
+    width: 100%;
+    height: 80%;
+    box-shadow: 0 0 70px black;
+}
+.contact{
+    width: 60%;
+    height: 20%;
+    position: absolute;
+    left: 20%;
+    display: grid;
+}
+
+.contact h1{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 450%;
+    color: #ff700f;
+}
+
+.contacts{
+    width: 85%;
+    height: 25%;
+    position: absolute;
+    left: 8%;
+    bottom: -165%;
+}
+
+.contacts img{
+    width: 22%;
+    padding: 5%;
+    border-radius: 40%;
+}
+
+.see {
+    width: 88%;
+    height: 20%;
+    position: absolute;
+    left: 7%;
+    bottom: -190%;
+    display: grid;
+}
+
+.see h1{
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 220%;
+    color: white;
+}
+
+}
